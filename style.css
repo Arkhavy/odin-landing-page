@@ -27,7 +27,8 @@ body {
 	flex: 0 0 50px;
 }
 
-h3 {
+h3,
+h4 {
 	font-size: 24px;
 	color: #F9FAF8;
 }
@@ -45,7 +46,6 @@ li {
 }
 
 a {
-	font-size: 18px;
 	text-decoration: none;
 	color: #E5E7EB;
 	padding: 10px;
@@ -79,8 +79,13 @@ button {
 	width: fit-content;
 	border-radius: 10px;
 	font-weight: bold;
-	font-size: 18px;
 	border-width: 0;
+}
+
+a,
+p,
+button {
+	font-size: 18px;
 }
 
 /* ************************************************************************** */
@@ -104,7 +109,6 @@ button {
 }
 
 #one p {
-	font-size: 18px;
 	color: #E5E7EB;
 	margin: 0px 0px 10px 0px;
 }
@@ -177,5 +181,31 @@ button {
 	align-self: flex-end;
 	font-weight: bold;
 	color: #1F2937;
-	font-size: 18px;
+}
+
+/* ************************************************************************** */
+/*                                SECTION FOUR                                */
+/* ************************************************************************** */
+#action-container {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	border-radius: 20px;
+
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#action-text {
+	margin: 50px;
+}
+
+#four button {
+	border: 3px solid #F9FAF8;
+}
+
+#four h4,
+p {
+	margin: 0;
 }
