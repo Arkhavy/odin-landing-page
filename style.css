@@ -1,5 +1,5 @@
 * {
-	border: 1px solid black;
+	/* border: 1px solid black; */
 }
 
 body {
@@ -52,4 +52,66 @@ a {
 
 a:hover {
 	background-color: #3882F6;
+}
+
+/* ************************************************************************** */
+/*                                   CONTENT                                  */
+/* ************************************************************************** */
+.content {
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1 0 auto;
+}
+
+button {
+	background-color: #3882F6;
+	color: #F9FAF8;
+	padding: 0.5em 2em;
+	width: fit-content;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	border-width: 0;
+}
+
+/* ************************************************************************** */
+/*                                 SECTION ONE                                */
+/* ************************************************************************** */
+#one {
+	background-color: #1F2937;
+}
+
+#one div {
+	width: 30vw;
+	display: flex;
+	flex-direction: column;
+}
+
+#one h1 {
+	color: #F9FAF8;
+	font-weight: 900;
+	font-size: 48px;
+	margin: 0;
+}
+
+#one p {
+	font-size: 18px;
+	color: #E5E7EB;
+	margin: 0px 0px 10px 0px;
+}
+
+#one figcaption {
+	color:#E5E7EB;
+}
+
+#one img {
+	width: 30vw;
 }
