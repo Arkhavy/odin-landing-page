@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
-	/* border: 1px solid black; */
+	border: 1px solid black;
 }
 
 body {
@@ -22,8 +24,7 @@ body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	flex-shrink: 0;
-	flex-basis: 50px;
+	flex: 0 0 50px;
 }
 
 h3 {
@@ -58,8 +59,7 @@ a:hover {
 /*                                   CONTENT                                  */
 /* ************************************************************************** */
 .content {
-	flex-grow: 1;
-
+	flex: 1 0 auto;
 	display: flex;
 	flex-direction: column;
 }
@@ -114,4 +114,40 @@ button {
 
 #one img {
 	width: 30vw;
+}
+
+/* ************************************************************************** */
+/*                                 SECTION TWO                                */
+/* ************************************************************************** */
+#two {
+	flex-direction: column;
+}
+
+#two h2 {
+	font-size: 36px;
+	font-weight: 900;
+	color: #1F2937;
+}
+
+#card-container {
+	display: flex;
+	justify-content: space-around;
+	gap: 40px;
+}
+
+.card {
+	text-align: center;
+	margin: 0;
+}
+
+.card img {
+	border: 3px solid #3882F6;
+	border-radius: 20px;
+	min-width: 150px;
+	min-height: 150px;
+}
+
+#two figcaption {
+	max-width: 150px;
+	color: #1F2937;
 }
