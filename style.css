@@ -69,6 +69,7 @@ section {
 	justify-content: center;
 	align-items: center;
 	flex: 1 0 auto;
+	padding: 5%;
 }
 
 button {
@@ -150,4 +151,31 @@ button {
 #two figcaption {
 	max-width: 150px;
 	color: #1F2937;
+}
+
+/* ************************************************************************** */
+/*                                SECTION THREE                               */
+/* ************************************************************************** */
+#three {
+	background-color: #E5E7EB;
+	flex-direction: column;
+	padding: 5% 20%;
+}
+
+#citation {
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 300;
+	font-style: italic;
+}
+
+#three p {
+	margin: 0;
+}
+
+#signature {
+	align-self: flex-end;
+	font-weight: bold;
+	color: #1F2937;
+	font-size: 18px;
 }
