@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-	border: 1px solid black;
-}
-
 body {
 	font-family:'Roboto', sans-serif;
 	margin: 0;
@@ -208,4 +204,17 @@ button {
 #four h4,
 p {
 	margin: 0;
+}
+
+/* ************************************************************************** */
+/*                                   FOOTER                                   */
+/* ************************************************************************** */
+.footer {
+	background-color: #1F2937;
+	color: #F9FAF8;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
 }
